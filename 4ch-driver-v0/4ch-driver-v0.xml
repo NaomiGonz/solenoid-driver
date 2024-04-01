@@ -1,0 +1,1743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/naomi_12/Desktop/Research/Younger-Lab/solenoid-driver-master/4ch-driver-v0/4ch-driver-v0.kicad_sch</source>
+    <date>2024 March 31, Sunday 21:11:15</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4ch-driver-v0.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>inv_drivers.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>47uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X_Pad2.25x2.55mm_HandSolder</footprint>
+      <fields>
+        <field name="Mfg">Kemet</field>
+        <field name="PartNum">T491X476K035AT</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="PartNum" value="T491X476K035AT"/>
+      <property name="Mfg" value="Kemet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bbf7979-8d2a-487b-a795-d1f22ab1ff3c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.18uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">KYOCERA AVX</field>
+        <field name="PartNum">08053C184KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="PartNum" value="08053C184KAT2A"/>
+      <property name="Mfg" value="KYOCERA AVX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3748f7d9-74d9-43e6-94dd-723caa0bc7d6</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Kemet</field>
+        <field name="PartNum">C0805C471K5RAC7800</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="PartNum" value="C0805C471K5RAC7800"/>
+      <property name="Mfg" value="Kemet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0717289d-f6c9-4a15-9a4d-6eee0a82ae4c</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Mfg">Samsung Electro-Mechanics</field>
+        <field name="PartNum">CL32A106KLULNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="PartNum" value="CL32A106KLULNNE"/>
+      <property name="Mfg" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b6e72a6-fc9c-4950-bf14-459f72cbf02a</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">KYOCERA AVX</field>
+        <field name="PartNum">08053C184KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="PartNum" value="08053C184KAT2A"/>
+      <property name="Mfg" value="KYOCERA AVX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a93b325-2542-49ce-861c-5596e9ee983e</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Mfg">KYOCERA AVX</field>
+        <field name="PartNum">08053C184KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="PartNum" value="08053C184KAT2A"/>
+      <property name="Mfg" value="KYOCERA AVX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c968a86-3717-4745-9cb7-d98f5aadb7ae</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.18uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">KYOCERA AVX</field>
+        <field name="PartNum">08053C184KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="PartNum" value="08053C184KAT2A"/>
+      <property name="Mfg" value="KYOCERA AVX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d8aa639-7bea-4c62-a15e-95e4677f17eb</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Kemet</field>
+        <field name="PartNum">C0805C471K5RAC7800</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="PartNum" value="C0805C471K5RAC7800"/>
+      <property name="Mfg" value="Kemet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ede1abae-c238-4951-a138-18a02cc9dd4c</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Mfg">Samsung Electro-Mechanics</field>
+        <field name="PartNum">CL32A106KLULNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="PartNum" value="CL32A106KLULNNE"/>
+      <property name="Mfg" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>604af06f-3a11-4779-9463-dc4635313845</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">KYOCERA AVX</field>
+        <field name="PartNum">08053C184KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="PartNum" value="08053C184KAT2A"/>
+      <property name="Mfg" value="KYOCERA AVX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6710145-e74d-4d81-be45-129cba688074</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Wurth</field>
+        <field name="PartNum">150080RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PartNum" value="150080RS75000"/>
+      <property name="Mfg" value="Wurth"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40ddc6a9-950f-41bd-8f67-36c5e873c3d4</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Wurth</field>
+        <field name="PartNum">150080RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PartNum" value="150080RS75000"/>
+      <property name="Mfg" value="Wurth"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3df34ea4-5596-4307-8e55-880cba6cdf0f</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>PMEG10010ELRX</value>
+      <footprint>Diode_SMD:Nexperia_CFP3_SOD-123W</footprint>
+      <fields>
+        <field name="Mfg">Nexperia</field>
+        <field name="PartNum">PMEG10010ELRX</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="PartNum" value="PMEG10010ELRX"/>
+      <property name="Mfg" value="Nexperia"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25420a88-719c-4572-8258-42b9b79ca412</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Wurth</field>
+        <field name="PartNum">150080RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PartNum" value="150080RS75000"/>
+      <property name="Mfg" value="Wurth"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bb72a3f-4581-4911-95a1-48b789aa5d29</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Wurth</field>
+        <field name="PartNum">150080RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PartNum" value="150080RS75000"/>
+      <property name="Mfg" value="Wurth"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13cd01e0-3a63-4699-a484-0a85e8a8b232</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>PMEG10010ELRX</value>
+      <footprint>Diode_SMD:Nexperia_CFP3_SOD-123W</footprint>
+      <fields>
+        <field name="Mfg">Nexperia</field>
+        <field name="PartNum">PMEG10010ELRX</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="PartNum" value="PMEG10010ELRX"/>
+      <property name="Mfg" value="Nexperia"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4eb5b417-083e-4b82-b8c1-31c6b62c4236</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>0ZCF0125FF2C</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <fields>
+        <field name="Mfg">Bel Fuse</field>
+        <field name="PartNum">0ZCF0125FF2C</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="PartNum" value="0ZCF0125FF2C"/>
+      <property name="Mfg" value="Bel Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3c7c86e-4410-4d97-a04d-0c4541c6e6d8</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Barrel_Jack</value>
+      <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal</footprint>
+      <fields>
+        <field name="Mfg">CUI</field>
+        <field name="PartNum">PJ-063AH</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack" description="DC Barrel Jack"/>
+      <property name="PartNum" value="PJ-063AH"/>
+      <property name="Mfg" value="CUI"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="DC Barrel Jack"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6464625-b0c2-44f6-a143-34a80ccd29c3</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-4_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52809895-f9e7-4167-941f-c5a2bfa92843</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <fields>
+        <field name="Mfg">TE</field>
+        <field name="PartNum">282837-2</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="PartNum" value="282837-2"/>
+      <property name="Mfg" value="TE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0734f2e6-9024-42c0-8561-f896bb7be8e9</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ac6eb6b-a71c-4b34-bdb0-d926f4581db0</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b22cbf43-5166-4b43-92d6-68e58f33db9e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805FR-07162KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805FR-07162KL"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9e259d4-9d4a-4e8d-b5f3-c208851b4c57</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805JR-074K7L"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14cbf6fa-011d-4d1f-9b95-e2965c053b02</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805JR-074K7L"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b4aba92-0687-4ecb-8096-71f128523ada</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>162k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805FR-07162KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805FR-07162KL"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d498987-945e-4049-9ba4-d1d13e7c3fe2</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>191k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805FR-07191KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805FR-07191KL"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46493523-873e-4c24-abc4-64e19e99a5ba</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805FR-07162KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805FR-07162KL"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fad6add6-6999-4692-b37c-debab3587dce</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805JR-074K7L"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b5c6d5a-d098-41e4-bf9b-af8040fc77fd</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805JR-074K7L"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d3e618d-1c7f-426e-91fa-9df44b84b8bd</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>162k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805FR-07162KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805FR-07162KL"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d5b56d6-89ff-4386-89df-0681fec866ea</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>191k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805FR-07191KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805FR-07191KL"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b4a9c34-e8bc-41d3-8a24-beabd90a2342</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>49R9</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805FR-0749R9L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805FR-0749R9L"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e5bf868-27da-499d-9c11-ae5f1a222c95</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>DRV104PWP</value>
+      <footprint>Solenoid_Driver:IC_TPS27S100BPWPR</footprint>
+      <fields>
+        <field name="Mfg">TI</field>
+        <field name="PartNum">DRV104PWP</field>
+      </fields>
+      <libsource lib="DRV104PWP" part="DRV104PWP" description=""/>
+      <property name="PartNum" value="DRV104PWP"/>
+      <property name="Mfg" value="TI"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b87b4f6f-8929-4921-8df5-a854094648f2</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>BD750L2FP3-CE2</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <libsource lib="Regulator_Linear" part="BD750L2FP3-CE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4159dd8-7f10-49f1-bca6-a06d781173a2</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>DRV104PWP</value>
+      <footprint>Solenoid_Driver:IC_TPS27S100BPWPR</footprint>
+      <fields>
+        <field name="Mfg">TI</field>
+        <field name="PartNum">DRV104PWP</field>
+      </fields>
+      <libsource lib="DRV104PWP" part="DRV104PWP" description=""/>
+      <property name="PartNum" value="DRV104PWP"/>
+      <property name="Mfg" value="TI"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed12c9f2-d068-489a-af06-dc3f936c0d3c</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>SN74LVC2G125DCUR</value>
+      <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <libsource lib="Buffer" part="SN74LVC2G125" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="4ch-driver-v0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e3107c9-a104-4cc9-824e-bdf8c79d0a8f</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.18uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">KYOCERA AVX</field>
+        <field name="PartNum">08053C184KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="PartNum" value="08053C184KAT2A"/>
+      <property name="Mfg" value="KYOCERA AVX"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>5dabe5ee-134d-4214-ad2b-e8fc77e223c1</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Kemet</field>
+        <field name="PartNum">C0805C471K5RAC7800</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="PartNum" value="C0805C471K5RAC7800"/>
+      <property name="Mfg" value="Kemet"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>fc384102-4f8b-4d68-978a-cb2c89258be9</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Mfg">Samsung Electro-Mechanics</field>
+        <field name="PartNum">CL32A106KLULNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="PartNum" value="CL32A106KLULNNE"/>
+      <property name="Mfg" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>7b520605-4a05-4c68-8eb8-79c1e2b4ffb2</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.18uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">KYOCERA AVX</field>
+        <field name="PartNum">08053C184KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="PartNum" value="08053C184KAT2A"/>
+      <property name="Mfg" value="KYOCERA AVX"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>a55a291c-8011-47bf-a278-75b83c9cf4c7</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>470pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Kemet</field>
+        <field name="PartNum">C0805C471K5RAC7800</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="PartNum" value="C0805C471K5RAC7800"/>
+      <property name="Mfg" value="Kemet"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>8e1c274b-3821-4464-b6ba-ae3b1bb23cb4</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="Mfg">Samsung Electro-Mechanics</field>
+        <field name="PartNum">CL32A106KLULNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="PartNum" value="CL32A106KLULNNE"/>
+      <property name="Mfg" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>2716b10a-754f-4ee7-87b7-baa97336617b</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">KYOCERA AVX</field>
+        <field name="PartNum">08053C184KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="PartNum" value="08053C184KAT2A"/>
+      <property name="Mfg" value="KYOCERA AVX"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>abb1030d-f129-475d-a3e2-c5acf21cec09</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">KYOCERA AVX</field>
+        <field name="PartNum">08053C184KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="PartNum" value="08053C184KAT2A"/>
+      <property name="Mfg" value="KYOCERA AVX"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>33b91bdc-40a4-49fc-81c0-b129e6fb5c36</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Wurth</field>
+        <field name="PartNum">150080RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PartNum" value="150080RS75000"/>
+      <property name="Mfg" value="Wurth"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>25da6a8d-4b24-41b1-a9b2-4ed95e02e6e6</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>PMEG10010ELRX</value>
+      <footprint>Diode_SMD:Nexperia_CFP3_SOD-123W</footprint>
+      <fields>
+        <field name="Mfg">Nexperia</field>
+        <field name="PartNum">PMEG10010ELRX</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="PartNum" value="PMEG10010ELRX"/>
+      <property name="Mfg" value="Nexperia"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>fb34ba40-fbe8-43ba-ab60-6e5d342c218d</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Wurth</field>
+        <field name="PartNum">150080RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PartNum" value="150080RS75000"/>
+      <property name="Mfg" value="Wurth"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>df3bb2b8-9a20-4253-aa08-89e3555ef197</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>PMEG10010ELRX</value>
+      <footprint>Diode_SMD:Nexperia_CFP3_SOD-123W</footprint>
+      <fields>
+        <field name="Mfg">Nexperia</field>
+        <field name="PartNum">PMEG10010ELRX</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="PartNum" value="PMEG10010ELRX"/>
+      <property name="Mfg" value="Nexperia"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>3a12ff5d-c081-4065-88a2-34cd34efbc1d</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Wurth</field>
+        <field name="PartNum">150080RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PartNum" value="150080RS75000"/>
+      <property name="Mfg" value="Wurth"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>3b24ae84-9eb1-4b5d-a4f3-02f97ca97fa6</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Wurth</field>
+        <field name="PartNum">150080RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="PartNum" value="150080RS75000"/>
+      <property name="Mfg" value="Wurth"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>ce3869fa-36d4-4084-9190-f9b4e84a8f23</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-4_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>360ac861-7c6b-48c9-a17e-5bf2507ad15a</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2N7002E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>479e0980-1a1a-4e0c-9d0b-ea6f91154473</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>2N7002E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>cd2454e1-4e32-4dec-b002-d6c75395f843</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805FR-07162KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805FR-07162KL"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>5a2f1ce8-f45f-4c34-b75c-924301862b89</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805JR-074K7L"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>e5648afd-2593-43b6-83d5-fd6671f55654</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805JR-074K7L"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>1c56d8cd-cf02-4cd7-8ed1-f599c6006e93</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>162k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805FR-07162KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805FR-07162KL"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>54159c00-f294-4958-a8fd-d8192ceca6be</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>191k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805FR-07191KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805FR-07191KL"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>92d3c8bd-7fc9-4a71-993d-248afedde6bc</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805JR-074K7L"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>f2b8d53a-4ea7-4f53-ac44-193e2544efcf</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805JR-074K7L"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>d1b1e7e3-7ac5-4d76-a754-fa637ef32aae</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>162k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805FR-07162KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805FR-07162KL"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>a78c8f2e-185c-4ed3-9f70-ef860d09d590</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>191k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805FR-07191KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805FR-07191KL"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>12185697-0478-4041-9788-9a9f816e9a8a</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Mfg">Yageo</field>
+        <field name="PartNum">RC0805FR-07162KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC0805FR-07162KL"/>
+      <property name="Mfg" value="Yageo"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>feb8f24c-5397-492c-9038-14a1d829578a</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>DRV104PWP</value>
+      <footprint>Solenoid_Driver:IC_TPS27S100BPWPR</footprint>
+      <fields>
+        <field name="Mfg">TI</field>
+        <field name="PartNum">DRV104PWP</field>
+      </fields>
+      <libsource lib="DRV104PWP" part="DRV104PWP" description=""/>
+      <property name="PartNum" value="DRV104PWP"/>
+      <property name="Mfg" value="TI"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>37161efa-042b-46b7-a1e0-a2441af38489</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>DRV104PWP</value>
+      <footprint>Solenoid_Driver:IC_TPS27S100BPWPR</footprint>
+      <fields>
+        <field name="Mfg">TI</field>
+        <field name="PartNum">DRV104PWP</field>
+      </fields>
+      <libsource lib="DRV104PWP" part="DRV104PWP" description=""/>
+      <property name="PartNum" value="DRV104PWP"/>
+      <property name="Mfg" value="TI"/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>94e9e27b-d708-44e0-a125-afc70119f00c</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>SN74LVC2G125DCUR</value>
+      <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <libsource lib="Buffer" part="SN74LVC2G125" description=""/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>a35854ae-d941-4ceb-93bb-adb751806d67</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>SN74AHCT1G04DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <libsource lib="Inverters" part="SN74AHCT1G04" description=""/>
+      <property name="Sheetname" value="inverted_signal"/>
+      <property name="Sheetfile" value="inv_drivers.kicad_sch"/>
+      <sheetpath names="/inverted_signal/" tstamps="/96eb9756-318c-476c-8d91-756fa91fd48c/"/>
+      <tstamps>9fdf6048-a7a8-4479-a2d9-4fd0a09516bb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Buffer" part="SN74LVC2G125">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1~{OE}" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="2Y" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="2A" type="input"/>
+        <pin num="6" name="1Y" type="input"/>
+        <pin num="7" name="2~{OE}" type="input"/>
+        <pin num="8" name="Vcc" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DRV104PWP" part="DRV104PWP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV104PWP</field>
+        <field name="Footprint">IC_TPS27S100BPWPR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DUTY_CYCLE_ADJ" type="input"/>
+        <pin num="2" name="DELAY_ADJ" type="input"/>
+        <pin num="3" name="OSC_FREQ_ADJ" type="bidirectional"/>
+        <pin num="4" name="MASTER" type="bidirectional"/>
+        <pin num="5" name="BOOT" type="bidirectional"/>
+        <pin num="6" name="OUT1" type="output"/>
+        <pin num="7" name="OUT2" type="output"/>
+        <pin num="8" name="VPS2" type="power_in"/>
+        <pin num="9" name="VPS1" type="power_in"/>
+        <pin num="10" name="+VS" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="SYNC" type="input"/>
+        <pin num="13" name="STATUS_OK_FLAG" type="bidirectional"/>
+        <pin num="14" name="INPUT" type="input"/>
+        <pin num="15" name="EPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Inverters" part="SN74AHCT1G04">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="input"/>
+        <pin num="2" name="In" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="Out" type="input"/>
+        <pin num="5" name="Vcc" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="BD750L2FP3-CE">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vcc" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="Vout" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002E">
+      <description>0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.diodes.com/assets/Datasheets/ds30376.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002E</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.diodes.com/assets/Datasheets/ds30376.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Buffer">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Buffer.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Inverters">
+      <uri>/Users/naomi_12/Documents/KiCad/7.0/symbols/Inverters.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="Vout" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="Vcc" pintype="input"/>
+      <node ref="U7" pin="8" pinfunction="Vcc" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="Vcc" pintype="input"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="+VS" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="VPS2" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="VPS1" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="Vcc" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="+VS" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="VPS2" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="VPS1" pintype="power_in"/>
+      <node ref="U5" pin="10" pinfunction="+VS" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="VPS2" pintype="power_in"/>
+      <node ref="U5" pin="9" pinfunction="VPS1" pintype="power_in"/>
+      <node ref="U6" pin="10" pinfunction="+VS" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="VPS2" pintype="power_in"/>
+      <node ref="U6" pin="9" pinfunction="VPS1" pintype="power_in"/>
+    </net>
+    <net code="3" name="/12V_IN">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/delay1">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="DELAY_ADJ" pintype="input"/>
+    </net>
+    <net code="5" name="/delay2">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="DELAY_ADJ" pintype="input"/>
+    </net>
+    <net code="6" name="/duty1">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="DUTY_CYCLE_ADJ" pintype="input"/>
+    </net>
+    <net code="7" name="/duty2">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="DUTY_CYCLE_ADJ" pintype="input"/>
+    </net>
+    <net code="8" name="/fault1">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="STATUS_OK_FLAG" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/fault2">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="STATUS_OK_FLAG" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/freq1">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="OSC_FREQ_ADJ" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/freq2">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="OSC_FREQ_ADJ" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/in">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/in_term1">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="INPUT" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="1Y" pintype="input"/>
+    </net>
+    <net code="14" name="/in_term2">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="INPUT" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="2Y" pintype="input"/>
+    </net>
+    <net code="15" name="/inverted_signal/delay3">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="DELAY_ADJ" pintype="input"/>
+    </net>
+    <net code="16" name="/inverted_signal/delay4">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="DELAY_ADJ" pintype="input"/>
+    </net>
+    <net code="17" name="/inverted_signal/duty3">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="DUTY_CYCLE_ADJ" pintype="input"/>
+    </net>
+    <net code="18" name="/inverted_signal/duty4">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="DUTY_CYCLE_ADJ" pintype="input"/>
+    </net>
+    <net code="19" name="/inverted_signal/fault3">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="STATUS_OK_FLAG" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/inverted_signal/fault4">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="STATUS_OK_FLAG" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/inverted_signal/freq3">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="OSC_FREQ_ADJ" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/inverted_signal/freq4">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="OSC_FREQ_ADJ" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/inverted_signal/in_term3">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="INPUT" pintype="input"/>
+      <node ref="U7" pin="6" pinfunction="1Y" pintype="input"/>
+    </net>
+    <net code="24" name="/inverted_signal/in_term4">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="INPUT" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="2Y" pintype="input"/>
+    </net>
+    <net code="25" name="/inverted_signal/inverted">
+      <node ref="U7" pin="2" pinfunction="1A" pintype="input"/>
+      <node ref="U7" pin="5" pinfunction="2A" pintype="input"/>
+      <node ref="U8" pin="4" pinfunction="Out" pintype="input"/>
+    </net>
+    <net code="26" name="/inverted_signal/out3">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="OUT1" pintype="output"/>
+      <node ref="U5" pin="7" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="27" name="/inverted_signal/out4">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="OUT1" pintype="output"/>
+      <node ref="U6" pin="7" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="28" name="/out1">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="OUT1" pintype="output"/>
+      <node ref="U1" pin="7" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="29" name="/out2">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="OUT1" pintype="output"/>
+      <node ref="U3" pin="7" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="30" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="15" pinfunction="EPAD" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="15" pinfunction="EPAD" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="1~{OE}" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="GND" pintype="input"/>
+      <node ref="U4" pin="7" pinfunction="2~{OE}" pintype="input"/>
+      <node ref="U5" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="15" pinfunction="EPAD" pintype="power_in"/>
+      <node ref="U6" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="15" pinfunction="EPAD" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="1~{OE}" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="GND" pintype="input"/>
+      <node ref="U7" pin="7" pinfunction="2~{OE}" pintype="input"/>
+      <node ref="U8" pin="3" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D11-A)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D11-K)">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D12-A)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D12-K)">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(U1-BOOT)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="BOOT" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="Net-(U3-BOOT)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="BOOT" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="Net-(U5-BOOT)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="BOOT" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="Net-(U6-BOOT)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="BOOT" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="in_sig">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="1A" pintype="input"/>
+      <node ref="U4" pin="5" pinfunction="2A" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="In" pintype="input"/>
+    </net>
+    <net code="48" name="unconnected-(U1-MASTER-Pad4)">
+      <node ref="U1" pin="4" pinfunction="MASTER" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-SYNC-Pad12)">
+      <node ref="U1" pin="12" pinfunction="SYNC" pintype="input+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U3-MASTER-Pad4)">
+      <node ref="U3" pin="4" pinfunction="MASTER" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U3-SYNC-Pad12)">
+      <node ref="U3" pin="12" pinfunction="SYNC" pintype="input+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U5-MASTER-Pad4)">
+      <node ref="U5" pin="4" pinfunction="MASTER" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U5-SYNC-Pad12)">
+      <node ref="U5" pin="12" pinfunction="SYNC" pintype="input+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U6-MASTER-Pad4)">
+      <node ref="U6" pin="4" pinfunction="MASTER" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U6-SYNC-Pad12)">
+      <node ref="U6" pin="12" pinfunction="SYNC" pintype="input+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U8-NC-Pad1)">
+      <node ref="U8" pin="1" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
