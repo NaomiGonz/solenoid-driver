@@ -586,6 +586,22 @@
     [
       "357bb51a-0c09-4fe1-96b9-5a0047351964",
       "additonal-channels-p2"
+    ],
+    [
+      "80952302-3f8a-4775-8ccb-fceb835f6518",
+      "additional-channels-9-11"
+    ],
+    [
+      "64b56d2f-5e5b-412a-8c19-48ee6f3c571e",
+      "additional-channels-12-14"
+    ],
+    [
+      "2201e8e0-fa6d-4ae9-bc12-4aa5c76d3bb2",
+      "additional-channels-15-16"
+    ],
+    [
+      "9477097f-0563-4d78-8676-0a0ca8114584",
+      "USB IO"
     ]
   ],
   "text_variables": {}
