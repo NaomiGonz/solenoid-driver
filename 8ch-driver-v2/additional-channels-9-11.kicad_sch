@@ -5522,7 +5522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Solenoid_Driver:IC_TPS27S100BPWPR"
+		(property "Footprint" "Solenoid_Driver:PWP14_2P31X2P46"
 			(at 147.32 45.72 0)
 			(effects
 				(font

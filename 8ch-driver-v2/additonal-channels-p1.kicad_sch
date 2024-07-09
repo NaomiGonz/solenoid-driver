@@ -4484,7 +4484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "534b2984-f38d-495b-9144-d6a92cc20616")
-		(property "Reference" "Q5"
+		(property "Reference" "Q3"
 			(at 34.29 181.61 0)
 			(effects
 				(font
@@ -4544,7 +4544,7 @@
 		(instances
 			(project "8ch-driver-v2"
 				(path "/a0da8170-9d86-479a-b2aa-1f6179555439/fa1b9fcd-d6e8-44ab-a3c7-d4c590cf5d5a"
-					(reference "Q5")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -8298,7 +8298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4b4ae46-146a-4ce2-9868-db0deb03867c")
-		(property "Reference" "Q3"
+		(property "Reference" "Q5"
 			(at 33.02 73.66 0)
 			(effects
 				(font
@@ -8358,7 +8358,7 @@
 		(instances
 			(project "8ch-driver-v2"
 				(path "/a0da8170-9d86-479a-b2aa-1f6179555439/fa1b9fcd-d6e8-44ab-a3c7-d4c590cf5d5a"
-					(reference "Q3")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
