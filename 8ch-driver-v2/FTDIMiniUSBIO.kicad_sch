@@ -1953,294 +1953,8 @@
 		)
 		(uuid "f84d22a4-c0d4-4982-b571-c41cd49379c7")
 	)
-	(global_label "Relay06"
-		(shape input)
-		(at 134.62 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "168e9fd2-9111-4b5b-8da8-75a6d61c3261")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.0754 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Relay10"
-		(shape input)
-		(at 215.9 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2134705a-c5dd-47a0-9770-83d69fa34d42")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.4446 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Relay08"
-		(shape input)
-		(at 134.62 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2fcb22fc-6e12-4307-badc-3f2586a35240")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.0754 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Relay16"
-		(shape input)
-		(at 215.9 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43d97fd1-7d28-4aee-88cc-682e50d6523e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.4446 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Relay01"
-		(shape input)
-		(at 134.62 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "441dcc26-aac1-4841-8543-e248134f8a99")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.0754 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Relay15"
-		(shape input)
-		(at 215.9 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4436c5d3-618f-4174-b08c-b4d158efc26c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.4446 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Relay12"
-		(shape input)
-		(at 215.9 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "51517d19-47d2-4cc1-98f8-43dd6a4a8d82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.4446 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Relay03"
-		(shape input)
-		(at 134.62 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "609eaf62-f038-4e34-aca0-bffd2731f937")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.0754 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Relay02"
-		(shape input)
-		(at 134.62 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9018e404-f402-4a3d-a68f-d7e45f69183f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.0754 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Relay11"
-		(shape input)
-		(at 215.9 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9f9b1405-2134-41e1-9663-edb9bc54d617")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.4446 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Relay09"
-		(shape input)
-		(at 215.9 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a5e2931b-3c5a-485b-82ae-bc399fb10bee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.4446 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Relay04"
-		(shape input)
-		(at 134.62 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad839378-f0dc-4614-8d20-df52f5d47845")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.0754 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Relay07"
-		(shape input)
-		(at 134.62 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b06e478e-3633-48c2-9e96-13306f2714b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.0754 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Relay05"
-		(shape input)
+	(hierarchical_label "USBTTLOut05"
+		(shape output)
 		(at 134.62 105.41 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2249,20 +1963,118 @@
 			)
 			(justify right)
 		)
-		(uuid "b22ee301-0e1d-4c19-bea4-c0f1a1791e4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.0754 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "0c4d6d21-d65d-4613-9939-0c7ee5b97d55")
 	)
-	(global_label "Relay13"
-		(shape input)
+	(hierarchical_label "USBTTLOut01"
+		(shape output)
+		(at 134.62 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d832a7b-6199-41bb-8c1d-8abd1d5ce597")
+	)
+	(hierarchical_label "USBTTLOut12"
+		(shape output)
+		(at 215.9 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "233851b5-845d-4b07-afa5-783dc7cdd368")
+	)
+	(hierarchical_label "USBTTLOut06"
+		(shape output)
+		(at 134.62 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33706000-1dc9-4daf-b6f7-369d186d8742")
+	)
+	(hierarchical_label "USBTTLOut15"
+		(shape output)
+		(at 215.9 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b9b5dc7-a7fe-471d-b4a8-4b7fe84d5258")
+	)
+	(hierarchical_label "USBTTLOut11"
+		(shape output)
+		(at 215.9 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cd9f5e5-9d00-44e1-9c2f-b2ace7dcd63c")
+	)
+	(hierarchical_label "USBTTLOut02"
+		(shape output)
+		(at 134.62 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61080f48-29d8-4c83-85a2-77b61e051823")
+	)
+	(hierarchical_label "USBTTLOut08"
+		(shape output)
+		(at 134.62 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e633932-4903-47eb-8a3f-9d111193af4d")
+	)
+	(hierarchical_label "USBTTLOut10"
+		(shape output)
+		(at 215.9 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e75acc1-d2e6-4c1c-9e0f-53aaec0af515")
+	)
+	(hierarchical_label "USBTTLOut04"
+		(shape output)
+		(at 134.62 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad1ff6b6-7eef-400e-9a6c-214f591fbf66")
+	)
+	(hierarchical_label "USBTTLOut13"
+		(shape output)
 		(at 215.9 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2271,20 +2083,46 @@
 			)
 			(justify left)
 		)
-		(uuid "e0770b28-07ae-4872-a074-f733c3f542c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.4446 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "b02ab411-8e5d-4501-91a6-0530ba12a195")
 	)
-	(global_label "Relay14"
-		(shape input)
+	(hierarchical_label "USBTTLOut09"
+		(shape output)
+		(at 215.9 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8003a16-8a9f-4754-a61b-ce350a447e07")
+	)
+	(hierarchical_label "USBTTLOut07"
+		(shape output)
+		(at 134.62 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3d32c52-ca94-40a6-b530-01a4301f46cc")
+	)
+	(hierarchical_label "USBTTLOut03"
+		(shape output)
+		(at 134.62 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd2f4e82-9ab7-45b6-aad8-1b9f9b0e81ad")
+	)
+	(hierarchical_label "USBTTLOut14"
+		(shape output)
 		(at 215.9 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2293,17 +2131,19 @@
 			)
 			(justify left)
 		)
-		(uuid "f6fe42fa-92f1-4aa2-bbd7-afa755904b8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.4446 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "f34bf69f-13cd-435d-9ea6-cdea72273009")
+	)
+	(hierarchical_label "USBTTLOut16"
+		(shape output)
+		(at 215.9 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "fb929a9d-5240-4dbb-975f-5a144eca031c")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2314,7 +2154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11b23b78-f18c-4f1c-854a-d5183bebc0b7")
-		(property "Reference" "C53"
+		(property "Reference" "C50"
 			(at 96.52 39.37 90)
 			(effects
 				(font
@@ -2384,9 +2224,9 @@
 			(uuid "4a599cb8-b1b4-4b2f-aefb-6f124cec3c1d")
 		)
 		(instances
-			(project "8ch-driver-v2"
+			(project "16ch-driver-v1"
 				(path "/a0da8170-9d86-479a-b2aa-1f6179555439/9477097f-0563-4d78-8676-0a0ca8114584"
-					(reference "C53")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -2402,7 +2242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2287d14b-edcd-4507-ad19-ee92adf7b4ca")
-		(property "Reference" "U17"
+		(property "Reference" "U18"
 			(at 175.26 59.69 0)
 			(effects
 				(font
@@ -2604,9 +2444,9 @@
 			(uuid "e9a0155b-f5e4-4257-a536-6c4ce7124c3d")
 		)
 		(instances
-			(project "8ch-driver-v2"
+			(project "16ch-driver-v1"
 				(path "/a0da8170-9d86-479a-b2aa-1f6179555439/9477097f-0563-4d78-8676-0a0ca8114584"
-					(reference "U17")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -2622,7 +2462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24dd5323-173b-407b-9b07-dbae16c8e8ba")
-		(property "Reference" "U18"
+		(property "Reference" "U17"
 			(at 113.03 33.02 0)
 			(effects
 				(font
@@ -2675,9 +2515,9 @@
 			(uuid "27f058de-f135-4d6f-b15b-27d7ae40541f")
 		)
 		(instances
-			(project "8ch-driver-v2"
+			(project "16ch-driver-v1"
 				(path "/a0da8170-9d86-479a-b2aa-1f6179555439/9477097f-0563-4d78-8676-0a0ca8114584"
-					(reference "U18")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -2692,7 +2532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e6e513b-0afe-4b61-a639-ec0ab745ee6e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0200"
 			(at 125.73 81.28 0)
 			(effects
 				(font
@@ -2740,9 +2580,9 @@
 			(uuid "d2769739-952f-419e-9906-766fa450f05a")
 		)
 		(instances
-			(project "8ch-driver-v2"
+			(project "16ch-driver-v1"
 				(path "/a0da8170-9d86-479a-b2aa-1f6179555439/9477097f-0563-4d78-8676-0a0ca8114584"
-					(reference "#PWR015")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -2757,7 +2597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67010f41-d21a-4809-b152-f3dc129fa8d1")
-		(property "Reference" "C54"
+		(property "Reference" "C51"
 			(at 124.46 39.37 90)
 			(effects
 				(font
@@ -2827,9 +2667,9 @@
 			(uuid "a756d2ba-033a-491f-bfef-ae204bbda96e")
 		)
 		(instances
-			(project "8ch-driver-v2"
+			(project "16ch-driver-v1"
 				(path "/a0da8170-9d86-479a-b2aa-1f6179555439/9477097f-0563-4d78-8676-0a0ca8114584"
-					(reference "C54")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -2845,7 +2685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84d65b27-f5e6-4f1c-af9f-e0bbece93c12")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0198"
 			(at 113.03 53.34 0)
 			(effects
 				(font
@@ -2893,9 +2733,9 @@
 			(uuid "0ba5f2ad-a0c3-4c4e-8f6c-4b841a8e19f5")
 		)
 		(instances
-			(project "8ch-driver-v2"
+			(project "16ch-driver-v1"
 				(path "/a0da8170-9d86-479a-b2aa-1f6179555439/9477097f-0563-4d78-8676-0a0ca8114584"
-					(reference "#PWR0213")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -2911,7 +2751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a28bb224-13c2-4bd3-9cbd-d47b6e7da5a8")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0196"
 			(at 105.41 43.18 0)
 			(effects
 				(font
@@ -2959,9 +2799,9 @@
 			(uuid "172c08a0-a1c1-4619-8986-f1b57698fc6b")
 		)
 		(instances
-			(project "8ch-driver-v2"
+			(project "16ch-driver-v1"
 				(path "/a0da8170-9d86-479a-b2aa-1f6179555439/9477097f-0563-4d78-8676-0a0ca8114584"
-					(reference "#PWR0210")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -2977,7 +2817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce37ee5d-44f9-4fbd-b087-d1d98e4bfeaf")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0197"
 			(at 125.73 43.18 0)
 			(effects
 				(font
@@ -3025,9 +2865,9 @@
 			(uuid "1017a942-d402-486d-bfef-4b9ad92a86c5")
 		)
 		(instances
-			(project "8ch-driver-v2"
+			(project "16ch-driver-v1"
 				(path "/a0da8170-9d86-479a-b2aa-1f6179555439/9477097f-0563-4d78-8676-0a0ca8114584"
-					(reference "#PWR0211")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -3043,7 +2883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb50ad85-1594-4935-b8fb-9203ee6dde6d")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0199"
 			(at 134.62 76.2 0)
 			(effects
 				(font
@@ -3091,9 +2931,9 @@
 			(uuid "d4f5a4f0-484e-4513-9daf-bca6b6bf2d79")
 		)
 		(instances
-			(project "8ch-driver-v2"
+			(project "16ch-driver-v1"
 				(path "/a0da8170-9d86-479a-b2aa-1f6179555439/9477097f-0563-4d78-8676-0a0ca8114584"
-					(reference "#PWR04")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
