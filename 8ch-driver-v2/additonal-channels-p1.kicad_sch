@@ -1658,6 +1658,12 @@
 		(uuid "45538a82-0fe4-4a06-8016-d1c5d7267f6f")
 	)
 	(junction
+		(at 57.785 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5447e3e0-3fb5-412d-9831-d64d0ba2f509")
+	)
+	(junction
 		(at 61.722 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1668,6 +1674,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e176f4c5-4c3c-4874-ad7e-2bc49d811bbe")
+	)
+	(junction
+		(at 19.05 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feb04920-2b39-4490-83fd-c3f9f2054da4")
 	)
 	(no_connect
 		(at 104.14 50.8)
@@ -1726,6 +1738,16 @@
 			(type default)
 		)
 		(uuid "2f55c699-9f67-4337-83f0-2c5024ea9764")
+	)
+	(wire
+		(pts
+			(xy 17.78 52.07) (xy 19.05 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388edf80-67e4-4b32-a1aa-df778db68696")
 	)
 	(wire
 		(pts
@@ -1849,7 +1871,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.372 38.1) (xy 61.722 38.1)
+			(xy 55.372 38.1) (xy 57.785 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1869,13 +1891,13 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 52.07) (xy 19.05 52.07)
+			(xy 57.785 52.07) (xy 57.785 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc047ad9-cd0b-46ad-afba-f79b8c7e0c99")
+		(uuid "ba7a8fbe-f328-4e59-9504-04eb9457a659")
 	)
 	(wire
 		(pts
@@ -1896,6 +1918,16 @@
 			(type default)
 		)
 		(uuid "c4f0bc09-e1f9-4140-8162-097735d1fb0d")
+	)
+	(wire
+		(pts
+			(xy 57.785 38.1) (xy 61.722 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc00256e-8a5f-4fbb-ac2a-f62ffe9596e4")
 	)
 	(wire
 		(pts
@@ -1926,6 +1958,16 @@
 			(type default)
 		)
 		(uuid "de5a9b22-f88e-4bf6-92dd-0edd9e22d602")
+	)
+	(wire
+		(pts
+			(xy 19.05 52.07) (xy 57.785 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c4d93c-981d-4159-8280-7e754a9ed116")
 	)
 	(wire
 		(pts
@@ -2078,71 +2120,29 @@
 		)
 		(uuid "f1f04e23-958d-4e54-bf1a-94645464fed3")
 	)
-	(label "fault03"
-		(at 99.06 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "212823ad-4353-45be-9e17-06c7ebe9d668")
-	)
-	(label "duty03"
-		(at 99.06 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e119f10-c96a-4340-bb8b-dde0171e4086")
-	)
-	(label "freq03"
+	(hierarchical_label "freq"
+		(shape input)
 		(at 99.06 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "4edab7c9-802a-4ed7-87b7-cb40a050dc8f")
+		(uuid "1a112905-9692-4fc5-bcfe-5fd67799a451")
 	)
-	(label "in_term03"
-		(at 78.486 38.1 0)
+	(hierarchical_label "fault"
+		(shape input)
+		(at 99.06 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "574a729a-03fb-402f-a686-aafaf4d9338b")
-	)
-	(label "in_term03"
-		(at 17.78 52.07 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c8fd560-e43e-4243-984a-0f10c08fe3d4")
-	)
-	(label "delay03"
-		(at 99.06 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd13cf71-0079-4d29-aa64-48ee7eacbb4f")
+		(uuid "3686ddc6-44c4-4e89-b3b2-30b28c0a68e0")
 	)
 	(hierarchical_label "TTLInput"
 		(shape input)
@@ -2156,6 +2156,18 @@
 		)
 		(uuid "a92cec3f-27a7-4ff8-a08f-b859d8c45237")
 	)
+	(hierarchical_label "duty"
+		(shape input)
+		(at 99.06 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afdf8a20-c4af-4ce5-926c-6703ad28d3a2")
+	)
 	(hierarchical_label "DriveOut"
 		(shape output)
 		(at 171.45 33.02 0)
@@ -2167,6 +2179,18 @@
 			(justify left)
 		)
 		(uuid "c04967e7-7ae5-4028-939c-420c749ddcd9")
+	)
+	(hierarchical_label "delay"
+		(shape input)
+		(at 99.06 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c94ecf83-8012-4f87-b77a-b599bf0ae507")
 	)
 	(symbol
 		(lib_id "Device:R_US")
