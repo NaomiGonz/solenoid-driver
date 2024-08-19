@@ -1,18 +1,4 @@
-23138758052458069
-ADF6-40-03.5-L-4-2-A-TR
-SAMTEC_ADF6-40-03.5-L-4-2-A-TR
-
-
-0
-160
-160
-ADM6-40-01.5-L-4-2-A-TR
-SAMTEC_ADM6-40-01.5-L-4-2-A-TR
-
-
-0
-160
-160
+23135329292422621
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55677,13 +55663,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-ERF8-040-05.0-L-DV-K-TR
-SAMTEC_ERF8-040-05.0-L-DV-K-TR
-
-
-0
-80
-80
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -87849,6 +87828,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Solenoid_Driver
+DRV104PWP
+
+
+0
+15
+15
 Solenoid_Driver
 FT4232H_FTD
 
