@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PJ-063AH")(type "KiCad")(uri "${KIPRJMOD}/sch_lib/PJ-063AH.kicad_sym")(options "")(descr ""))
+  (lib (name "LPF-C014301S")(type "KiCad")(uri "${KIPRJMOD}/sch_lib/LPF-C014301S.kicad_sym")(options "")(descr ""))
+  (lib (name "TBL009-254-16GY-2GY")(type "KiCad")(uri "${KIPRJMOD}/sch_lib/TBL009-254-16GY-2GY.kicad_sym")(options "")(descr ""))
+)
