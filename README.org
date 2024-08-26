@@ -57,3 +57,4 @@ line in opposition (if one is in state A the other should be in state B).
  - Two 12V complementary outputs
 
 The solenoids should be driven with a high-side switch using a peak and hold circuit.
+
